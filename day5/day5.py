@@ -1,7 +1,7 @@
 fresh_list = []
 ingredient_list = []
 try:
-    with open("day5/sample_input.txt", "r") as file:
+    with open("day5/input.txt", "r") as file:
         lines = file.readlines()
         ingre = False
         for line in lines:
